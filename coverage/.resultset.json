@@ -1,0 +1,50 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/matthewcampo/Development/pocs/coveralls/app/helpers/application_helper.rb": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/helpers/spec_tester.rb": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/matthewcampo/Development/pocs/coveralls/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1576279854
+  }
+}
