@@ -42,6 +42,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'listen'
   gem 'coveralls'
+  gem 'simplecov'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
