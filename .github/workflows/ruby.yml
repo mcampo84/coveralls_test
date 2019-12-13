@@ -19,8 +19,3 @@ jobs:
         gem install bundler
         bundle install
         bundle exec rspec spec
-
-    - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
