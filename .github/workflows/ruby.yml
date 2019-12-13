@@ -21,6 +21,5 @@ jobs:
         bundle exec rspec spec
 
     - name: Coveralls GitHub Action
-      uses: coverallsapp/github-action@v1.0.1
-      with:
+      uses: coverallsapp/github-action@master
         github-token: ${{ secrets.GITHUB_TOKEN }}
