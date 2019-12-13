@@ -1,6 +1,6 @@
 name: Ruby
 
-on: [push]
+on: [push, "pull_request"]
 
 jobs:
   build:
@@ -19,3 +19,8 @@ jobs:
         gem install bundler
         bundle install
         bundle exec rspec spec
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
